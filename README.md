@@ -7,7 +7,7 @@
 ![Blue and Yellow Motivational LinkedIn Banner](https://github.com/TatsianaLentz/AQ_Portfolio_iRobot_Testing_Project-/assets/167602491/55689040-0863-4adb-bca8-fe5a4fc45b0e)
 
 <h2 align="center">
-  This project aims to demonstrate some of my skills in both automation and manual testing. I enjoyed testing the website, writing documentation, and developing automation scripts. All that's left is to acquire a real iRobot to extend the testing capabilities!
+  This project aims to demonstrate some of my skills in both automation and manual testing. I enjoyed testing the website, writing documentation, and developing automation scripts. All that's left is to acquire a real iRobot to extend my testing capabilities!
 </h2>
 
 
