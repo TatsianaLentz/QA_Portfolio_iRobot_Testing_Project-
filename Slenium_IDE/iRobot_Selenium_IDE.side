@@ -1,0 +1,1534 @@
+{
+  "id": "8b3709d1-4c82-4f7f-a987-324984ccadcd",
+  "version": "2.0",
+  "name": "iRobot",
+  "url": "https://www.irobot.com",
+  "tests": [{
+    "id": "d5d6310e-e251-4663-a4b0-1194fb6a438e",
+    "name": "homepage header",
+    "commands": [{
+      "id": "b5d7d412-1f54-4073-96f6-8457c82d7f5b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c2c936ed-cbf1-4065-b6e5-1d39d2c8185b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a136e331-4dfe-4b01-a0fc-cfbbb4cb9aca",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "iRobot®: Robot Vacuums and Mops",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bfb4ac63-dfa2-4003-8c83-093069b68ed1",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.slick-current .header-promotion",
+      "targets": [
+        ["css=.slick-current .header-promotion", "css:finder"],
+        ["xpath=//div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c53615e-2680-4fb4-93c6-c3ebd5275d95",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=Support",
+      "targets": [
+        ["linkText=Support", "linkText"],
+        ["css=.user > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Support')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://homesupport.irobot.com/?_gl=1*1xdnqv9*_ga*MTYzNTQ5NzY4My4xNzE3MjA5OTg5*_ga_CX1FERKJKP*MTcxODE1NTk5OC4yMS4xLjE3MTgxNTk0ODkuMC4wLjA.*_fplc*c0RpZ1YlMkZzT2p0cklBVkR0YkNVZTdtUTk1amFnUXFwSVg3WUtRTkdqZE9WQTlEdkEyN0pQOHduZ2lUc3NhcEh3ZzViOVolMkI2a0lTMjNRRUJRY3BXRW5yb1k3d3UxQnQlMkJWcEJNWGtvbEM2UkxWaURoY0U0R3o5ekRaQjZROXp3JTNEJTNE&_ga=2.263041484.1956609265.1718076012-1635497683.1717209989&_gac=1.115874292.1717312932.Cj0KCQjwsPCyBhD4ARIsAPaaRf3PhRyr-9hYRNn29NOG5tueeje9vP0ZatsB6FPfIqT9EjK4qnD5GxMaAnmUEALw_wcB')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Support')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8eeaf3f-4847-4b93-954d-8927d49dea57",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=Order Status",
+      "targets": [
+        ["linkText=Order Status", "linkText"],
+        ["css=.user > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Order Status')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/en_US/login')]", "xpath:href"],
+        ["xpath=//div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Order Status')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b67309fd-7c9a-4121-b921-b44b227fe301",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=a:nth-child(3) > .user-message",
+      "targets": [
+        ["css=a:nth-child(3) > .user-message", "css:finder"],
+        ["xpath=//a[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "76442325-8bfe-49cc-88c5-57eecca5d18e",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=My Wishlist",
+      "targets": [
+        ["linkText=My Wishlist", "linkText"],
+        ["css=.user__wishlist-link:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://www.irobot.com/en_US/wishlist')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'My Wishlist')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3f6ee5d-aa68-4811-9f3f-61d732123077",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=dropdownCountrySelector",
+      "targets": [
+        ["id=dropdownCountrySelector", "id"],
+        ["css=.dropdown:nth-child(2) > #dropdownCountrySelector", "css:finder"],
+        ["xpath=//span[@id='dropdownCountrySelector']", "xpath:attributes"],
+        ["xpath=//div[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f941f050-385b-43c4-8679-acea0bdea701",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.logo-home",
+      "targets": [
+        ["css=.logo-home", "css:finder"],
+        ["xpath=(//a[contains(@href, '/')])[10]", "xpath:href"],
+        ["xpath=//nav/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": "2000"
+    }, {
+      "id": "db6740b3-df6b-4ee8-80c6-d63be35b283e",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "id=us-products",
+      "targets": [
+        ["id=us-products", "id"],
+        ["linkText=Products", "linkText"],
+        ["css=#us-products", "css:finder"],
+        ["xpath=//a[contains(text(),'Products')]", "xpath:link"],
+        ["xpath=//a[@id='us-products']", "xpath:attributes"],
+        ["xpath=//div[@id='sg-navbar-collapse']/div/div/nav/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en_US/us/products-1')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Products')]", "xpath:innerText"]
+      ],
+      "value": "2000"
+    }, {
+      "id": "402327ef-b7a9-448b-ab98-ce9b77f8fc22",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "id=us-offers-deals",
+      "targets": [
+        ["id=us-offers-deals", "id"],
+        ["linkText=Father’s Day Sale", "linkText"],
+        ["css=#us-offers-deals", "css:finder"],
+        ["xpath=//a[contains(text(),'Father’s Day Sale')]", "xpath:link"],
+        ["xpath=//a[@id='us-offers-deals']", "xpath:attributes"],
+        ["xpath=//div[@id='sg-navbar-collapse']/div/div/nav/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.irobot.com/en_US/deals.html')])[5]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Father’s Day Sale')]", "xpath:innerText"]
+      ],
+      "value": "2000"
+    }, {
+      "id": "e2b72d5d-f948-40e0-93db-5b631b6ea259",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "id=us-why-irobot",
+      "targets": [
+        ["id=us-why-irobot", "id"],
+        ["linkText=Why iRobot", "linkText"],
+        ["css=#us-why-irobot", "css:finder"],
+        ["xpath=//a[contains(text(),'Why iRobot')]", "xpath:link"],
+        ["xpath=//a[@id='us-why-irobot']", "xpath:attributes"],
+        ["xpath=//div[@id='sg-navbar-collapse']/div/div/nav/div[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en_US/us/why-irobot')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Why iRobot')]", "xpath:innerText"]
+      ],
+      "value": "2000"
+    }, {
+      "id": "01bd3d2a-05b7-480e-a358-ab7c5f51fc34",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "id=us-irobot-os-menu",
+      "targets": [
+        ["id=us-irobot-os-menu", "id"],
+        ["linkText=iRobot OS", "linkText"],
+        ["css=#us-irobot-os-menu", "css:finder"],
+        ["xpath=//a[contains(text(),'iRobot OS')]", "xpath:link"],
+        ["xpath=//a[@id='us-irobot-os-menu']", "xpath:attributes"],
+        ["xpath=//div[@id='sg-navbar-collapse']/div/div/nav/div[2]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.irobot.com/en_US/irobot-os.html')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'iRobot OS')]", "xpath:innerText"]
+      ],
+      "value": "2000"
+    }, {
+      "id": "5c48566e-bad6-475f-bd3a-b9d2f6c1a9d5",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "id=us-parts-accessories",
+      "targets": [
+        ["id=us-parts-accessories", "id"],
+        ["linkText=Accessories", "linkText"],
+        ["css=#us-parts-accessories", "css:finder"],
+        ["xpath=(//a[contains(text(),'Accessories')])[2]", "xpath:link"],
+        ["xpath=//a[@id='us-parts-accessories']", "xpath:attributes"],
+        ["xpath=//div[@id='sg-navbar-collapse']/div/div/nav/div[2]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en_US/us/accessories')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": "2000"
+    }, {
+      "id": "1f674126-886d-4d6e-98b4-1c9b8811ed63",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "id=us-shop-by-lifestyle",
+      "targets": [
+        ["id=us-shop-by-lifestyle", "id"],
+        ["linkText=Shop by Lifestyle", "linkText"],
+        ["css=#us-shop-by-lifestyle", "css:finder"],
+        ["xpath=//a[contains(text(),'Shop by Lifestyle')]", "xpath:link"],
+        ["xpath=//a[@id='us-shop-by-lifestyle']", "xpath:attributes"],
+        ["xpath=//div[@id='sg-navbar-collapse']/div/div/nav/div[2]/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en_US/us/shop-by-lifestyle')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Shop by Lifestyle')]", "xpath:innerText"]
+      ],
+      "value": "2000"
+    }, {
+      "id": "94190b90-0394-41fe-94e4-792c2c037ff6",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.search .form-control", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "2000"
+    }, {
+      "id": "76357f50-3ad9-4237-be3f-915cc9e41b90",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.minicart-link > .minicart-icon",
+      "targets": [
+        ["css=.minicart-link > .minicart-icon", "css:finder"],
+        ["xpath=//div[3]/div[2]/div[2]/div/a/i", "xpath:position"]
+      ],
+      "value": "2000"
+    }, {
+      "id": "ecb1d493-9823-4033-bf10-bc55527b5f3c",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8c8eaf91-22fa-4e0d-ba39-fa14a1b3c059",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=us-products",
+      "targets": [
+        ["id=us-products", "id"],
+        ["linkText=Products", "linkText"],
+        ["css=#us-products", "css:finder"],
+        ["xpath=//a[contains(text(),'Products')]", "xpath:link"],
+        ["xpath=//a[@id='us-products']", "xpath:attributes"],
+        ["xpath=//div[@id='sg-navbar-collapse']/div/div/nav/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en_US/us/products-1')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Products')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e9f45f9-f021-4dc5-97ad-c7fc6fc90c23",
+      "comment": "",
+      "command": "click",
+      "target": "id=us-products",
+      "targets": [
+        ["id=us-products", "id"],
+        ["linkText=Products", "linkText"],
+        ["css=#us-products", "css:finder"],
+        ["xpath=//a[contains(text(),'Products')]", "xpath:link"],
+        ["xpath=//a[@id='us-products']", "xpath:attributes"],
+        ["xpath=//div[@id='sg-navbar-collapse']/div/div/nav/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en_US/us/products-1')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Products')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "afab4a36-f35b-4b53-bbf0-1a2a328857d4",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=us-products",
+      "targets": [
+        ["id=us-products", "id"],
+        ["linkText=Products", "linkText"],
+        ["css=#us-products", "css:finder"],
+        ["xpath=//a[contains(text(),'Products')]", "xpath:link"],
+        ["xpath=//a[@id='us-products']", "xpath:attributes"],
+        ["xpath=//div[@id='sg-navbar-collapse']/div/div/nav/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en_US/us/products-1')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Products')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "93eed222-3956-4a2b-a007-be304c570331",
+      "comment": "",
+      "command": "click",
+      "target": "id=us-offers-deals",
+      "targets": [
+        ["id=us-offers-deals", "id"],
+        ["linkText=Father’s Day Sale", "linkText"],
+        ["css=#us-offers-deals", "css:finder"],
+        ["xpath=//a[contains(text(),'Father’s Day Sale')]", "xpath:link"],
+        ["xpath=//a[@id='us-offers-deals']", "xpath:attributes"],
+        ["xpath=//div[@id='sg-navbar-collapse']/div/div/nav/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.irobot.com/en_US/deals.html')])[5]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Father’s Day Sale')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c8a0c20-5bb7-4e19-bd7d-772700eae6b1",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Roomba® Sale, Deals on Robot Vacuums and Robot Mops | iRobot®",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b6a6d5af-5a30-490c-94e0-faeb9a07653a",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Shop Offers",
+      "targets": [
+        ["linkText=Shop Offers", "linkText"],
+        ["css=.th-component__link--btn-outline:nth-child(1)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Shop Offers')])[2]", "xpath:link"],
+        ["xpath=//div[@id='us-deals']/div/div/div/div/div/div/div[2]/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#deals')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"]
+      ],
+      "value": "2000"
+    }, {
+      "id": "fb414ce1-1384-40c2-8f3e-16640d9e1392",
+      "comment": "",
+      "command": "click",
+      "target": "id=us-why-irobot",
+      "targets": [
+        ["id=us-why-irobot", "id"],
+        ["linkText=Why iRobot", "linkText"],
+        ["css=#us-why-irobot", "css:finder"],
+        ["xpath=//a[contains(text(),'Why iRobot')]", "xpath:link"],
+        ["xpath=//a[@id='us-why-irobot']", "xpath:attributes"],
+        ["xpath=//div[@id='sg-navbar-collapse']/div/div/nav/div[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en_US/us/why-irobot')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Why iRobot')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0af1d0af-536c-46a4-965c-f353d44ae18a",
+      "comment": "",
+      "command": "click",
+      "target": "id=us-irobot-os-menu",
+      "targets": [
+        ["id=us-irobot-os-menu", "id"],
+        ["linkText=iRobot OS", "linkText"],
+        ["css=#us-irobot-os-menu", "css:finder"],
+        ["xpath=//a[contains(text(),'iRobot OS')]", "xpath:link"],
+        ["xpath=//a[@id='us-irobot-os-menu']", "xpath:attributes"],
+        ["xpath=//div[@id='sg-navbar-collapse']/div/div/nav/div[2]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.irobot.com/en_US/irobot-os.html')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'iRobot OS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6da857d4-c841-4cb0-942b-22d5e6db4985",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "iRobot OS by iRobot®",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb56f5b6-94c3-4586-b1f5-d57620191f76",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.experience-component:nth-child(2) .c-video-banner__video-bg",
+      "targets": [
+        ["css=.experience-component:nth-child(2) .c-video-banner__video-bg", "css:finder"],
+        ["xpath=//div[@id='us-irobot-os']/div/div[2]/div/div/div/div/video", "xpath:idRelative"],
+        ["xpath=//video", "xpath:position"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "f0304254-4c84-4034-ada3-7fb57a4d1219",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.experience-component:nth-child(1) h2",
+      "targets": [
+        ["css=.experience-component:nth-child(1) h2", "css:finder"],
+        ["xpath=//div[@id='us-irobot-os']/div/div/div/div/div/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'iRobot OS')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "19d12bcd-8d15-464c-828e-7e4cd3844ffc",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=strong > em",
+      "targets": [
+        ["css=strong > em", "css:finder"],
+        ["xpath=//div[@id='us-irobot-os']/div/div[6]/div/div/div/h2/strong/em", "xpath:idRelative"],
+        ["xpath=//strong/em", "xpath:position"],
+        ["xpath=//em[contains(.,'What can iRobot OS do for you?')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "474ace01-b856-4490-90e0-38f32482a58e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=us-irobot-os-menu",
+      "targets": [
+        ["id=us-irobot-os-menu", "id"],
+        ["linkText=iRobot OS", "linkText"],
+        ["css=#us-irobot-os-menu", "css:finder"],
+        ["xpath=//a[contains(text(),'iRobot OS')]", "xpath:link"],
+        ["xpath=//a[@id='us-irobot-os-menu']", "xpath:attributes"],
+        ["xpath=//div[@id='sg-navbar-collapse']/div/div/nav/div[2]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.irobot.com/en_US/irobot-os.html')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'iRobot OS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "948fd79e-9526-492d-b56f-f2c85fa9d15d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=us-irobot-os-menu",
+      "targets": [
+        ["id=us-irobot-os-menu", "id"],
+        ["linkText=iRobot OS", "linkText"],
+        ["css=#us-irobot-os-menu", "css:finder"],
+        ["xpath=//a[contains(text(),'iRobot OS')]", "xpath:link"],
+        ["xpath=//a[@id='us-irobot-os-menu']", "xpath:attributes"],
+        ["xpath=//div[@id='sg-navbar-collapse']/div/div/nav/div[2]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.irobot.com/en_US/irobot-os.html')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'iRobot OS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "65bf208d-cc37-4e12-9b95-8ee07ce0cf08",
+      "comment": "",
+      "command": "click",
+      "target": "id=us-parts-accessories",
+      "targets": [
+        ["id=us-parts-accessories", "id"],
+        ["linkText=Accessories", "linkText"],
+        ["css=#us-parts-accessories", "css:finder"],
+        ["xpath=(//a[contains(text(),'Accessories')])[2]", "xpath:link"],
+        ["xpath=//a[@id='us-parts-accessories']", "xpath:attributes"],
+        ["xpath=//div[@id='sg-navbar-collapse']/div/div/nav/div[2]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en_US/us/accessories')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc418c15-0d68-4a44-a44e-ce7886bc9888",
+      "comment": "",
+      "command": "click",
+      "target": "id=us-shop-by-lifestyle",
+      "targets": [
+        ["id=us-shop-by-lifestyle", "id"],
+        ["linkText=Shop by Lifestyle", "linkText"],
+        ["css=#us-shop-by-lifestyle", "css:finder"],
+        ["xpath=//a[contains(text(),'Shop by Lifestyle')]", "xpath:link"],
+        ["xpath=//a[@id='us-shop-by-lifestyle']", "xpath:attributes"],
+        ["xpath=//div[@id='sg-navbar-collapse']/div/div/nav/div[2]/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en_US/us/shop-by-lifestyle')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Shop by Lifestyle')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "de4d11dd-8b91-419a-a0fb-0265f883310a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.logo-home",
+      "targets": [
+        ["css=.logo-home", "css:finder"],
+        ["xpath=(//a[contains(@href, '/')])[10]", "xpath:href"],
+        ["xpath=//nav/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f589a456-846f-4614-b717-a538f73c837a",
+    "name": "robot vacuums",
+    "commands": [{
+      "id": "aea9d67f-2e77-4d3e-a9df-ab1a55d0e0a7",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7428bd88-00b8-4021-a79b-f64f3a29556d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9b06249-2b6a-4bb5-ac6d-fada01baf956",
+      "comment": "",
+      "command": "click",
+      "target": "id=us-products",
+      "targets": [
+        ["id=us-products", "id"],
+        ["linkText=Products", "linkText"],
+        ["css=#us-products", "css:finder"],
+        ["xpath=//a[contains(text(),'Products')]", "xpath:link"],
+        ["xpath=//a[@id='us-products']", "xpath:attributes"],
+        ["xpath=//div[@id='sg-navbar-collapse']/div/div/nav/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en_US/us/products-1')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Products')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7125070f-96e8-4308-b092-a4de77187afc",
+      "comment": "",
+      "command": "click",
+      "target": "id=us-roomba-robotic-vacuums",
+      "targets": [
+        ["id=us-roomba-robotic-vacuums", "id"],
+        ["linkText=Robot Vacuums", "linkText"],
+        ["css=#us-roomba-robotic-vacuums", "css:finder"],
+        ["xpath=//a[contains(text(),'Robot Vacuums')]", "xpath:link"],
+        ["xpath=//a[@id='us-roomba-robotic-vacuums']", "xpath:attributes"],
+        ["xpath=//div[@id='sg-navbar-collapse']/div/div/nav/div[2]/ul/li/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.irobot.com/en_US/roomba.html')]", "xpath:href"],
+        ["xpath=//li/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Robot Vacuums')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "de528336-4eaf-4c31-a348-57fa7ca54e9f",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Roomba® Robot Vacuum Cleaners | iRobot®",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "34f57140-5a98-4fd9-a71f-03116237ea71",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.c-marketing-banner__item__wrapper--left .c-marketing-banner__item__img",
+      "targets": [
+        ["css=.c-marketing-banner__item__wrapper--left .c-marketing-banner__item__img", "css:finder"],
+        ["xpath=//img[@alt='j9']", "xpath:img"],
+        ["xpath=//div[@id='us-roomba']/div/div/div/div/a/div/div/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c73c3786-4b07-42d7-b52f-2c61a3a316cf",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,25.600000381469727)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "700e7ad2-fe76-470f-9e24-e45749cadd04",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2300)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e8a8c3cc-a5f3-43ff-baa6-e557863bdc1b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3255.199951171875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "91612489-68a1-42ec-a96c-e4ec8aad09a0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slick-slide:nth-child(5) .btn--icon-label",
+      "targets": [
+        ["css=.slick-slide:nth-child(5) .btn--icon-label", "css:finder"],
+        ["xpath=//div[@id='carousel-667913e5547d97c3cde77dbc78']/div/div/div/div[5]/div/div/div/div[2]/div[6]/a/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div/div[2]/div[6]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30d3a0c5-fc79-44e2-8fba-834c6d0b31ec",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,300)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "87c50c82-c1e9-4e6f-b379-5b7cc260c401",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,505.6000061035156)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "231323de-cf66-49d2-a844-112fdc02d1d6",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "00aa7142-ff0c-40be-8580-4ac255431c5a",
+    "name": "iRobot accessories ",
+    "commands": [{
+      "id": "4dc9dca1-8335-4ae7-863f-70f2c5f8a641",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f137c5dd-80e6-4d5f-9e09-3f6789639b32",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1012c25d-a6de-412e-bb37-f509d90d389e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=us-parts-accessories",
+      "targets": [
+        ["id=us-parts-accessories", "id"],
+        ["linkText=Accessories", "linkText"],
+        ["css=#us-parts-accessories", "css:finder"],
+        ["xpath=(//a[contains(text(),'Accessories')])[2]", "xpath:link"],
+        ["xpath=//a[@id='us-parts-accessories']", "xpath:attributes"],
+        ["xpath=//div[@id='sg-navbar-collapse']/div/div/nav/div[2]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en_US/us/accessories')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7acbf10a-1be8-449b-ac66-5a646e6d93d3",
+      "comment": "",
+      "command": "click",
+      "target": "id=us-parts-accessories",
+      "targets": [
+        ["id=us-parts-accessories", "id"],
+        ["linkText=Accessories", "linkText"],
+        ["css=#us-parts-accessories", "css:finder"],
+        ["xpath=(//a[contains(text(),'Accessories')])[2]", "xpath:link"],
+        ["xpath=//a[@id='us-parts-accessories']", "xpath:attributes"],
+        ["xpath=//div[@id='sg-navbar-collapse']/div/div/nav/div[2]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en_US/us/accessories')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd90ee1c-fd14-47d3-abfa-f1930e3e1553",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=us-roomba-parts-accessories",
+      "targets": [
+        ["id=us-roomba-parts-accessories", "id"],
+        ["linkText=Robot Vacuum Accessories", "linkText"],
+        ["css=#us-roomba-parts-accessories", "css:finder"],
+        ["xpath=//a[contains(text(),'Robot Vacuum Accessories')]", "xpath:link"],
+        ["xpath=//a[@id='us-roomba-parts-accessories']", "xpath:attributes"],
+        ["xpath=//div[@id='sg-navbar-collapse']/div/div/nav/div[2]/ul/li[5]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en_US/us/robot-vacuum-accessories')]", "xpath:href"],
+        ["xpath=//li[5]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Robot Vacuum Accessories')]", "xpath:innerText"]
+      ],
+      "value": "1500"
+    }, {
+      "id": "cff35721-57be-40e7-9032-dfb69624cbac",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=us-braava-parts-accessories",
+      "targets": [
+        ["id=us-braava-parts-accessories", "id"],
+        ["linkText=Robot Mop Accessories", "linkText"],
+        ["css=#us-braava-parts-accessories", "css:finder"],
+        ["xpath=//a[contains(text(),'Robot Mop Accessories')]", "xpath:link"],
+        ["xpath=//a[@id='us-braava-parts-accessories']", "xpath:attributes"],
+        ["xpath=//div[@id='sg-navbar-collapse']/div/div/nav/div[2]/ul/li[5]/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en_US/us/braava-accessories')]", "xpath:href"],
+        ["xpath=//li[5]/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Robot Mop Accessories')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9ce2577-58fd-4419-86b0-d66c8e0235a6",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=us-parts-bundles",
+      "targets": [
+        ["id=us-parts-bundles", "id"],
+        ["linkText=Accessory Bundles", "linkText"],
+        ["css=#us-parts-bundles", "css:finder"],
+        ["xpath=//a[contains(text(),'Accessory Bundles')]", "xpath:link"],
+        ["xpath=//a[@id='us-parts-bundles']", "xpath:attributes"],
+        ["xpath=//div[@id='sg-navbar-collapse']/div/div/nav/div[2]/ul/li[5]/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en_US/us/accessory-bundles')]", "xpath:href"],
+        ["xpath=//li[5]/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Accessory Bundles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "60b58d6c-10a4-41ec-9f12-226f661eec83",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=us-aeris-handheld-irobot-parts-accessories",
+      "targets": [
+        ["id=us-aeris-handheld-irobot-parts-accessories", "id"],
+        ["linkText=Handheld Vacuum & Air Purifier Accessories", "linkText"],
+        ["css=#us-aeris-handheld-irobot-parts-accessories", "css:finder"],
+        ["xpath=//a[contains(text(),'Handheld Vacuum & Air Purifier Accessories')]", "xpath:link"],
+        ["xpath=//a[@id='us-aeris-handheld-irobot-parts-accessories']", "xpath:attributes"],
+        ["xpath=//div[@id='sg-navbar-collapse']/div/div/nav/div[2]/ul/li[5]/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en_US/us/handheld-vacuum-and-air-purifier-accessories')]", "xpath:href"],
+        ["xpath=//li[5]/div/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Handheld Vacuum & Air Purifier Accessories')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "35e560b9-d974-475c-8df4-9c153f9925b2",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.show .category-info__usefull-title",
+      "targets": [
+        ["css=.show .category-info__usefull-title", "css:finder"],
+        ["xpath=//div[@id='sg-navbar-collapse']/div/div/nav/div[2]/ul/li[5]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//li[5]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c886daf2-ca22-4925-bf1b-c5c268233281",
+      "comment": "",
+      "command": "click",
+      "target": "id=us-roomba-parts-accessories",
+      "targets": [
+        ["id=us-roomba-parts-accessories", "id"],
+        ["linkText=Robot Vacuum Accessories", "linkText"],
+        ["css=#us-roomba-parts-accessories", "css:finder"],
+        ["xpath=//a[contains(text(),'Robot Vacuum Accessories')]", "xpath:link"],
+        ["xpath=//a[@id='us-roomba-parts-accessories']", "xpath:attributes"],
+        ["xpath=//div[@id='sg-navbar-collapse']/div/div/nav/div[2]/ul/li[5]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en_US/us/robot-vacuum-accessories')]", "xpath:href"],
+        ["xpath=//li[5]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Robot Vacuum Accessories')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0de827fc-fea9-4bbf-9494-832378834540",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.slick-current .search-carousel-tile-container",
+      "targets": [
+        ["css=.slick-current .search-carousel-tile-container", "css:finder"],
+        ["xpath=//div[@id='maincontent']/div[2]/div/div/div/div/div/div/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "1500"
+    }, {
+      "id": "d463f265-77a6-41fa-8dc8-0de70b8ac327",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.slick-slide:nth-child(2) img",
+      "targets": [
+        ["css=.slick-slide:nth-child(2) img", "css:finder"],
+        ["xpath=//img[@alt='i Series']", "xpath:img"],
+        ["xpath=//div[@id='maincontent']/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/img", "xpath:position"]
+      ],
+      "value": "1500"
+    }, {
+      "id": "cd026e71-8ab2-4f81-9144-56c04d856cd0",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.slick-slide:nth-child(3) .search-carousel-tile-container",
+      "targets": [
+        ["css=.slick-slide:nth-child(3) .search-carousel-tile-container", "css:finder"],
+        ["xpath=//div[@id='maincontent']/div[2]/div/div/div/div/div/div/div/div/div[3]/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div/div/div/div[3]/div/div", "xpath:position"]
+      ],
+      "value": "1500"
+    }, {
+      "id": "7deb622b-e470-40b7-8441-836e94d7914e",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.slick-slide:nth-child(4) .search-carousel-tile-container",
+      "targets": [
+        ["css=.slick-slide:nth-child(4) .search-carousel-tile-container", "css:finder"],
+        ["xpath=//div[@id='maincontent']/div[2]/div/div/div/div/div/div/div/div/div[4]/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div/div/div/div[4]/div/div", "xpath:position"]
+      ],
+      "value": "1500"
+    }, {
+      "id": "e77c239a-c4e0-4b7c-8fbc-4fdf0056a932",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.search-category-title",
+      "targets": [
+        ["css=.search-category-title", "css:finder"],
+        ["xpath=//div[@id='maincontent']/div[3]/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Roomba® Parts and Accessories')]", "xpath:innerText"]
+      ],
+      "value": "Roomba® Parts and Accessories"
+    }, {
+      "id": "4d9b010e-69aa-4e0f-8b09-e78bb891b872",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.search-category-description",
+      "targets": [
+        ["css=.search-category-description", "css:finder"],
+        ["xpath=//div[@id='maincontent']/div[3]/div/div/p", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div[3]/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Shop for official iRobot® batteries, filters, brushes, and more.')]", "xpath:innerText"]
+      ],
+      "value": "Shop for official iRobot® batteries, filters, brushes, and more."
+    }, {
+      "id": "9d5fb34f-a762-4420-83ee-7ab07b6bff45",
+      "comment": "",
+      "command": "click",
+      "target": "css=.show-more-button",
+      "targets": [
+        ["css=.show-more-button", "css:finder"],
+        ["xpath=//div[@id='product-search-results']/div[2]/div/div[2]/div[13]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[13]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Load More')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5001e08-6dba-4175-8be3-36541e0c6915",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.show-more-button",
+      "targets": [
+        ["css=.show-more-button", "css:finder"],
+        ["xpath=//div[@id='product-search-results']/div[2]/div/div[2]/div[13]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[13]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Load More')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "78df5dde-eba0-4eb6-8664-a339de279be7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.show-more-button",
+      "targets": [
+        ["css=.show-more-button", "css:finder"],
+        ["xpath=//div[@id='product-search-results']/div[2]/div/div[2]/div[13]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[13]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Load More')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbe7cecc-0b90-46f8-846d-15a9e09ed782",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.col-6:nth-child(14) a",
+      "targets": [
+        ["css=.col-6:nth-child(14) a", "css:finder"],
+        ["xpath=//div[@id='product-search-results']/div[2]/div/div[2]/div[14]/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en_US/corner-brush%2C-3-pack-for-roomba-s-series/4646123.html')]", "xpath:href"],
+        ["xpath=//div[14]/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a583c6bb-ae34-4360-8f37-504fedcf61fc",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2424)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "84a57127-ba5a-4b8b-8fba-5018f705a2b5",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.col-6:nth-child(14) a",
+      "targets": [
+        ["css=.col-6:nth-child(14) a", "css:finder"],
+        ["xpath=//div[@id='product-search-results']/div[2]/div/div[2]/div[14]/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en_US/corner-brush%2C-3-pack-for-roomba-s-series/4646123.html')]", "xpath:href"],
+        ["xpath=//div[14]/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c1a4d19-0801-4194-b740-721757ac22fc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.show-more-button",
+      "targets": [
+        ["css=.show-more-button", "css:finder"],
+        ["xpath=//div[@id='product-search-results']/div[2]/div/div[2]/div[25]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[25]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Load More')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5461e67c-1dd8-464f-b283-3dd673380e67",
+      "comment": "",
+      "command": "click",
+      "target": "css=.show-more-button",
+      "targets": [
+        ["css=.show-more-button", "css:finder"],
+        ["xpath=//div[@id='product-search-results']/div[2]/div/div[2]/div[37]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[37]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Load More')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9de555b2-64c0-49a0-a617-02a97ffaaad5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.show-more-button",
+      "targets": [
+        ["css=.show-more-button", "css:finder"],
+        ["xpath=//div[@id='product-search-results']/div[2]/div/div[2]/div[49]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[49]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Load More')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0acdcdf7-4e8a-4cb6-9b90-b18e39a89413",
+      "comment": "",
+      "command": "click",
+      "target": "css=.show-more-button",
+      "targets": [
+        ["css=.show-more-button", "css:finder"],
+        ["xpath=//div[@id='product-search-results']/div[2]/div/div[2]/div[61]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[61]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Load More')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "34f1c9df-ab1b-4832-9cd0-82f9bfd4d22d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.show-more-button",
+      "targets": [
+        ["css=.show-more-button", "css:finder"],
+        ["xpath=//div[@id='product-search-results']/div[2]/div/div[2]/div[73]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[73]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Load More')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a66df924-bfdf-4b72-a1b3-de4414a4b0c1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-6:nth-child(75) .btn--icon-label",
+      "targets": [
+        ["css=.col-6:nth-child(75) .btn--icon-label", "css:finder"],
+        ["xpath=//div[@id='product-search-results']/div[2]/div/div[2]/div[75]/div/div/div[2]/div[4]/a/span", "xpath:idRelative"],
+        ["xpath=//div[75]/div/div/div[2]/div[4]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1bd32fd-1475-42ea-a486-12d303b7ae81",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d-none .add-to-wish-list",
+      "targets": [
+        ["css=.d-none .add-to-wish-list", "css:finder"],
+        ["xpath=(//button[@type='submit'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='maincontent']/div/div/div/div[2]/div[2]/div/div[4]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[4]/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "942c8ec9-1f9f-414c-9149-620d30150bc5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(1) > .col-12 > .title",
+      "targets": [
+        ["css=.row:nth-child(1) > .col-12 > .title", "css:finder"],
+        ["xpath=//div[@id='maincontent']/div/div[3]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Details')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "98368917-0e85-4709-bdc5-1f89320d1cb3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(2) .title",
+      "targets": [
+        ["css=.row:nth-child(2) .title", "css:finder"],
+        ["xpath=//div[@id='maincontent']/div/div[3]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Specs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "89b5cad9-411c-41ce-ba10-832bbfa378f4",
+    "name": "shop by lifestyle",
+    "commands": [{
+      "id": "eebaa789-8a3a-411d-9008-97f9aa08bacb",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "99f10e6c-d4d8-453c-b15e-a55b9dc6db43",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "04d7c8e2-85ce-4c43-bcae-286d683c212f",
+      "comment": "",
+      "command": "click",
+      "target": "id=us-shop-by-lifestyle",
+      "targets": [
+        ["id=us-shop-by-lifestyle", "id"],
+        ["linkText=Shop by Lifestyle", "linkText"],
+        ["css=#us-shop-by-lifestyle", "css:finder"],
+        ["xpath=//a[contains(text(),'Shop by Lifestyle')]", "xpath:link"],
+        ["xpath=//a[@id='us-shop-by-lifestyle']", "xpath:attributes"],
+        ["xpath=//div[@id='sg-navbar-collapse']/div/div/nav/div[2]/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en_US/us/shop-by-lifestyle')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Shop by Lifestyle')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "903bf017-c435-469f-bf02-0db72adeb71d",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "id=us-pet-owners-lifestyle",
+      "targets": [
+        ["id=us-pet-owners-lifestyle", "id"],
+        ["linkText=Pet Owner", "linkText"],
+        ["css=#us-pet-owners-lifestyle", "css:finder"],
+        ["xpath=//a[contains(text(),'Pet Owner')]", "xpath:link"],
+        ["xpath=//a[@id='us-pet-owners-lifestyle']", "xpath:attributes"],
+        ["xpath=//div[@id='sg-navbar-collapse']/div/div/nav/div[2]/ul/li[6]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.irobot.com/en_US/lifestyle/pet-owners.html')]", "xpath:href"],
+        ["xpath=//li[6]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Pet Owner')]", "xpath:innerText"]
+      ],
+      "value": "1500"
+    }, {
+      "id": "ed4d3b0e-3618-4170-b443-7441977c85f6",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "id=us-tech-enthusiast-lifestyle",
+      "targets": [
+        ["id=us-tech-enthusiast-lifestyle", "id"],
+        ["linkText=Tech Enthusiast", "linkText"],
+        ["css=#us-tech-enthusiast-lifestyle", "css:finder"],
+        ["xpath=//a[contains(text(),'Tech Enthusiast')]", "xpath:link"],
+        ["xpath=//a[@id='us-tech-enthusiast-lifestyle']", "xpath:attributes"],
+        ["xpath=//div[@id='sg-navbar-collapse']/div/div/nav/div[2]/ul/li[6]/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.irobot.com/en_US/lifestyle/tech-enthusiasts.html')]", "xpath:href"],
+        ["xpath=//li[6]/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Tech Enthusiast')]", "xpath:innerText"]
+      ],
+      "value": "1500"
+    }, {
+      "id": "06323dc1-771f-40b2-bc7e-b0b0d24a31fa",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "id=us-busy-family-lifestyle",
+      "targets": [
+        ["id=us-busy-family-lifestyle", "id"],
+        ["linkText=Busy Family", "linkText"],
+        ["css=#us-busy-family-lifestyle", "css:finder"],
+        ["xpath=//a[contains(text(),'Busy Family')]", "xpath:link"],
+        ["xpath=//a[@id='us-busy-family-lifestyle']", "xpath:attributes"],
+        ["xpath=//div[@id='sg-navbar-collapse']/div/div/nav/div[2]/ul/li[6]/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.irobot.com/en_US/lifestyle/families.html')]", "xpath:href"],
+        ["xpath=//li[6]/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Busy Family')]", "xpath:innerText"]
+      ],
+      "value": "1500"
+    }, {
+      "id": "35221881-0207-4059-9e90-535d9ab61b80",
+      "comment": "",
+      "command": "click",
+      "target": "id=us-pet-owners-lifestyle",
+      "targets": [
+        ["id=us-pet-owners-lifestyle", "id"],
+        ["linkText=Pet Owner", "linkText"],
+        ["css=#us-pet-owners-lifestyle", "css:finder"],
+        ["xpath=//a[contains(text(),'Pet Owner')]", "xpath:link"],
+        ["xpath=//a[@id='us-pet-owners-lifestyle']", "xpath:attributes"],
+        ["xpath=//div[@id='sg-navbar-collapse']/div/div/nav/div[2]/ul/li[6]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.irobot.com/en_US/lifestyle/pet-owners.html')]", "xpath:href"],
+        ["xpath=//li[6]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Pet Owner')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9d4f490-4fcf-46c3-99de-98c71d9bfbff",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.c-marketing-banner__item__wrapper--left .c-marketing-banner__item__heading",
+      "targets": [
+        ["css=.c-marketing-banner__item__wrapper--left .c-marketing-banner__item__heading", "css:finder"],
+        ["xpath=//div[@id='pet-owners']/div/div[2]/div/div/a/div/div[2]/div/h2", "xpath:idRelative"],
+        ["xpath=//div[2]/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Built to handle the ruff stuff')]", "xpath:innerText"]
+      ],
+      "value": "Built to handle the ruff stuff"
+    }, {
+      "id": "ea8689a8-86e7-4e00-83b9-2bbcb29e29cb",
+      "comment": "",
+      "command": "click",
+      "target": "id=primary-cta",
+      "targets": [
+        ["id=primary-cta", "id"],
+        ["css=.th-component__links--left > #primary-cta", "css:finder"],
+        ["xpath=//div[@id='primary-cta']", "xpath:attributes"],
+        ["xpath=//div[@id='pet-owners']/div/div[2]/div/div/a/div/div[2]/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "96291a81-dc41-48f1-a26a-0538ad2df4cb",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.d-none .product-name",
+      "targets": [
+        ["css=.d-none .product-name", "css:finder"],
+        ["xpath=//div[@id='maincontent']/div/div/div/div[2]/div[2]/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": "1500"
+    }, {
+      "id": "6b31f7a5-9ed8-4d28-9df5-d5d2c8af74d7",
+      "comment": "",
+      "command": "waitForText",
+      "target": "css=.d-none > .row:nth-child(3) > .col",
+      "targets": [
+        ["css=.d-none > .row:nth-child(3) > .col", "css:finder"],
+        ["xpath=//div[@id='maincontent']/div/div/div/div[2]/div[2]/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div[3]/div", "xpath:position"]
+      ],
+      "value": "Item # c975020"
+    }, {
+      "id": "91d1e07e-d61c-4928-9da0-c74107429f04",
+      "comment": "",
+      "command": "click",
+      "target": "css=.amp-selected > .amp-main-img",
+      "targets": [
+        ["css=.amp-selected > .amp-main-img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://cdn.media.amplience.net/i/irobot/c975020_11?fmt=auto&$pdp-img-thumb-prd$&img404=404&v=1&locale=en-US,*')]", "xpath:img"],
+        ["xpath=//div[@id='amp-pdp-container']/div/div/div[2]/ul/div/li[2]/img", "xpath:idRelative"],
+        ["xpath=//li[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "35a3d736-04a8-491b-9810-e04892c38e11",
+      "comment": "",
+      "command": "click",
+      "target": "css=.amp-selected > .amp-main-img",
+      "targets": [
+        ["css=.amp-selected > .amp-main-img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://cdn.media.amplience.net/i/irobot/c975020_2?fmt=auto&$pdp-img-thumb-prd$&img404=404&v=1&locale=en-US,*')]", "xpath:img"],
+        ["xpath=//div[@id='amp-pdp-container']/div/div/div[2]/ul/div/li[3]/img", "xpath:idRelative"],
+        ["xpath=//li[3]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c78e115-2d3b-407c-9cac-290ed64a19c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.amp-selected > .amp-main-img",
+      "targets": [
+        ["css=.amp-selected > .amp-main-img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://cdn.media.amplience.net/i/irobot/c975020_5?fmt=auto&$pdp-img-thumb-prd$&img404=404&v=1&locale=en-US,*')]", "xpath:img"],
+        ["xpath=//div[@id='amp-pdp-container']/div/div/div[2]/ul/div/li[7]/img", "xpath:idRelative"],
+        ["xpath=//li[7]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cfa2a82b-14ab-40c3-9183-c0ad71ff7d85",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bla-portrait-next",
+      "targets": [
+        ["css=.bla-portrait-next", "css:finder"],
+        ["xpath=//div[@id='amp-pdp-container']/div/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6815faef-7c78-4715-ad39-5854c535fd72",
+      "comment": "",
+      "command": "click",
+      "target": "css=.amp-selected > .amp-main-img",
+      "targets": [
+        ["css=.amp-selected > .amp-main-img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://cdn.media.amplience.net/i/irobot/c975020_6?fmt=auto&$pdp-img-thumb-prd$&img404=404&v=1&locale=en-US,*')]", "xpath:img"],
+        ["xpath=//div[@id='amp-pdp-container']/div/div/div[2]/ul/div/li[8]/img", "xpath:idRelative"],
+        ["xpath=//li[8]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8bbb954-2e66-4a9a-bf0e-cd299d4c06f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bla-portrait-next",
+      "targets": [
+        ["css=.bla-portrait-next", "css:finder"],
+        ["xpath=//div[@id='amp-pdp-container']/div/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24a7b2b0-c731-4379-8835-81ec908439a4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.amp-selected > .amp-main-img",
+      "targets": [
+        ["css=.amp-selected > .amp-main-img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://cdn.media.amplience.net/i/irobot/c975020_7?fmt=auto&$pdp-img-thumb-prd$&img404=404&v=1&locale=en-US,*')]", "xpath:img"],
+        ["xpath=//div[@id='amp-pdp-container']/div/div/div[2]/ul/div/li[9]/img", "xpath:idRelative"],
+        ["xpath=//li[9]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "430da991-be07-45df-a8ca-bde25805f64f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bla-portrait-next",
+      "targets": [
+        ["css=.bla-portrait-next", "css:finder"],
+        ["xpath=//div[@id='amp-pdp-container']/div/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd2177ea-1a9f-4f8e-99c7-d4326316b9b9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.amp-selected > .amp-main-img",
+      "targets": [
+        ["css=.amp-selected > .amp-main-img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://cdn.media.amplience.net/i/irobot/c975020_8?fmt=auto&$pdp-img-thumb-prd$&img404=404&v=1&locale=en-US,*')]", "xpath:img"],
+        ["xpath=//div[@id='amp-pdp-container']/div/div/div[2]/ul/div/li[10]/img", "xpath:idRelative"],
+        ["xpath=//li[10]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9084fb1-8bbb-4b0e-9ce5-2bc537b4716e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bla-portrait-next",
+      "targets": [
+        ["css=.bla-portrait-next", "css:finder"],
+        ["xpath=//div[@id='amp-pdp-container']/div/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b38421a-ce58-4631-813f-0da6507c6c1d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.amp-selected > .amp-main-img",
+      "targets": [
+        ["css=.amp-selected > .amp-main-img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://cdn.media.amplience.net/i/irobot/c975020_9?fmt=auto&$pdp-img-thumb-prd$&img404=404&v=1&locale=en-US,*')]", "xpath:img"],
+        ["xpath=//div[@id='amp-pdp-container']/div/div/div[2]/ul/div/li[11]/img", "xpath:idRelative"],
+        ["xpath=//li[11]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e283be80-6aee-4920-8503-3c4caa391ff0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bla-portrait-next",
+      "targets": [
+        ["css=.bla-portrait-next", "css:finder"],
+        ["xpath=//div[@id='amp-pdp-container']/div/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b723f8d8-6be4-45f6-be25-f52cece02866",
+      "comment": "",
+      "command": "click",
+      "target": "css=.amp-selected > .amp-main-img",
+      "targets": [
+        ["css=.amp-selected > .amp-main-img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://cdn.media.amplience.net/i/irobot/c975020_10?fmt=auto&$pdp-img-thumb-prd$&img404=404&v=1&locale=en-US,*')]", "xpath:img"],
+        ["xpath=//div[@id='amp-pdp-container']/div/div/div[2]/ul/div/li[12]/img", "xpath:idRelative"],
+        ["xpath=//li[12]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c3a566c-164d-4f01-9b50-72e5432f4280",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-pd-accordion__trigger",
+      "targets": [
+        ["css=.c-pd-accordion__trigger", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='maincontent']/div/div/div/div[2]/div/div/div[2]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Product Details')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7a5c089-7542-448a-a312-57bd9293135c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-pdp-action__slider:nth-child(1) .slick-next-icon",
+      "targets": [
+        ["css=.c-pdp-action__slider:nth-child(1) .slick-next-icon", "css:finder"],
+        ["xpath=//div[@id='maincontent']/div/div[5]/div/div/button[2]/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/button[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4218436d-4339-4edb-82e0-4d5cfd2057f8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-pdp-action__slider:nth-child(1) .slick-next-icon",
+      "targets": [
+        ["css=.c-pdp-action__slider:nth-child(1) .slick-next-icon", "css:finder"],
+        ["xpath=//div[@id='maincontent']/div/div[5]/div/div/button[2]/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/button[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1e43dab-6055-48b5-8b5f-d562dc609f00",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-pdp-action__slider:nth-child(1) .slick-next-icon",
+      "targets": [
+        ["css=.c-pdp-action__slider:nth-child(1) .slick-next-icon", "css:finder"],
+        ["xpath=//div[@id='maincontent']/div/div[5]/div/div/button[2]/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/button[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9af49ab6-25da-441c-9b25-b6e7c95949ef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-pdp-action__slider:nth-child(1) .slick-next-icon",
+      "targets": [
+        ["css=.c-pdp-action__slider:nth-child(1) .slick-next-icon", "css:finder"],
+        ["xpath=//div[@id='maincontent']/div/div[5]/div/div/button[2]/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/button[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fb44e3a-c894-4fa2-8588-241b378d1331",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-pdp-action__slider:nth-child(1) .slick-next-icon",
+      "targets": [
+        ["css=.c-pdp-action__slider:nth-child(1) .slick-next-icon", "css:finder"],
+        ["xpath=//div[@id='maincontent']/div/div[5]/div/div/button[2]/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/button[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "051d810c-4682-4c20-aa37-901d5c9cb845",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-pdp-action__slider:nth-child(1) .slick-next-icon",
+      "targets": [
+        ["css=.c-pdp-action__slider:nth-child(1) .slick-next-icon", "css:finder"],
+        ["xpath=//div[@id='maincontent']/div/div[5]/div/div/button[2]/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/button[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c20908f-9508-44a4-9cfb-52d05c3c0274",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-pdp-action__slider:nth-child(1) .slick-next-icon",
+      "targets": [
+        ["css=.c-pdp-action__slider:nth-child(1) .slick-next-icon", "css:finder"],
+        ["xpath=//div[@id='maincontent']/div/div[5]/div/div/button[2]/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/button[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0452956-6dc9-422c-8fc9-cc130f895cfa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-pdp-action__slider:nth-child(1) .slick-next-icon",
+      "targets": [
+        ["css=.c-pdp-action__slider:nth-child(1) .slick-next-icon", "css:finder"],
+        ["xpath=//div[@id='maincontent']/div/div[5]/div/div/button[2]/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/button[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d589c94e-8c5b-4a01-83d2-2215017aaefd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-pdp-action__region:nth-child(3) .slick-next-icon",
+      "targets": [
+        ["css=.c-pdp-action__region:nth-child(3) .slick-next-icon", "css:finder"],
+        ["xpath=//div[@id='maincontent']/div/div[5]/div[2]/div[2]/button[2]/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/div[2]/button[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de4ecc43-4478-437e-9760-417c1396b711",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-pdp-action__region:nth-child(3) .slick-next-icon",
+      "targets": [
+        ["css=.c-pdp-action__region:nth-child(3) .slick-next-icon", "css:finder"],
+        ["xpath=//div[@id='maincontent']/div/div[5]/div[2]/div[2]/button[2]/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/div[2]/button[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb75a5e3-4d73-4f5e-96c7-3c8842808f06",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-pdp-action__region:nth-child(3) .slick-next-icon",
+      "targets": [
+        ["css=.c-pdp-action__region:nth-child(3) .slick-next-icon", "css:finder"],
+        ["xpath=//div[@id='maincontent']/div/div[5]/div[2]/div[2]/button[2]/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/div[2]/button[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7366ebf-587b-4606-9743-0a515d66b868",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-pdp-action__region:nth-child(3) .slick-next-icon",
+      "targets": [
+        ["css=.c-pdp-action__region:nth-child(3) .slick-next-icon", "css:finder"],
+        ["xpath=//div[@id='maincontent']/div/div[5]/div[2]/div[2]/button[2]/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/div[2]/button[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f6c3d2c-edee-47c6-b960-74c56ce513da",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-pdp-action__region:nth-child(4) .slick-next-icon",
+      "targets": [
+        ["css=.c-pdp-action__region:nth-child(4) .slick-next-icon", "css:finder"],
+        ["xpath=//div[@id='maincontent']/div/div[5]/div[3]/div[2]/button[2]/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/button[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9881f965-a3f2-47e8-9fd7-c3106e10407b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-pdp-action__region:nth-child(4) .slick-next-icon",
+      "targets": [
+        ["css=.c-pdp-action__region:nth-child(4) .slick-next-icon", "css:finder"],
+        ["xpath=//div[@id='maincontent']/div/div[5]/div[3]/div[2]/button[2]/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/button[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65a4fc26-0bd9-4f37-ba28-bd4992c87245",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-pdp-action__region:nth-child(4) .slick-next-icon",
+      "targets": [
+        ["css=.c-pdp-action__region:nth-child(4) .slick-next-icon", "css:finder"],
+        ["xpath=//div[@id='maincontent']/div/div[5]/div[3]/div[2]/button[2]/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/button[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af186c45-2d2e-4fbf-a98e-b72be606f30b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(1) > .col-12 > .title",
+      "targets": [
+        ["css=.row:nth-child(1) > .col-12 > .title", "css:finder"],
+        ["xpath=//div[@id='maincontent']/div/div[7]/div/div/button", "xpath:idRelative"],
+        ["xpath=//body/div[2]/div/div/div[7]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Specs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e88c86c-70ed-4f1c-aa30-edca8112e510",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(2) > .col-12 > .title",
+      "targets": [
+        ["css=.row:nth-child(2) > .col-12 > .title", "css:finder"],
+        ["xpath=//div[@id='maincontent']/div/div[7]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//body/div[2]/div/div/div[7]/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'FAQs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d49332f9-3d65-4160-871e-5c8b7beb2f29",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-pdp-reviews .title",
+      "targets": [
+        ["css=.js-pdp-reviews .title", "css:finder"],
+        ["xpath=//div[@id='maincontent']/div/div[7]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db8651b3-8b13-4630-ab45-dfe13f5b46d2",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "58c8375a-62ac-4292-9f4b-a48f43b358e3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d5d6310e-e251-4663-a4b0-1194fb6a438e"]
+  }],
+  "urls": ["https://www.irobot.com/"],
+  "plugins": []
+}
