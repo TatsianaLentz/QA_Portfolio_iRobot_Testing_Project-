@@ -382,7 +382,7 @@
         ["xpath=//div[@id='us-irobot-os']/div/div[2]/div/div/div/div/video", "xpath:idRelative"],
         ["xpath=//video", "xpath:position"]
       ],
-      "value": "30000"
+      "value": "2000"
     }, {
       "id": "f0304254-4c84-4034-ada3-7fb57a4d1219",
       "comment": "",
@@ -394,7 +394,7 @@
         ["xpath=//h2", "xpath:position"],
         ["xpath=//h2[contains(.,'iRobot OS')]", "xpath:innerText"]
       ],
-      "value": "30000"
+      "value": "2000"
     }, {
       "id": "19d12bcd-8d15-464c-828e-7e4cd3844ffc",
       "comment": "",
@@ -406,7 +406,7 @@
         ["xpath=//strong/em", "xpath:position"],
         ["xpath=//em[contains(.,'What can iRobot OS do for you?')]", "xpath:innerText"]
       ],
-      "value": "30000"
+      "value": "2000"
     }, {
       "id": "474ace01-b856-4490-90e0-38f32482a58e",
       "comment": "",
